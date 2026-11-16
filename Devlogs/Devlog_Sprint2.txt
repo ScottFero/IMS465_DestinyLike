@@ -1,0 +1,17 @@
+Date:
+11/15/2026
+
+Milestone Target:
+- Full multi-directionality for object spawning & consistent spawn conditions when activating the "Super" from different heights.
+
+Features Completed:
+- Full Multi-Directionality (Blades spawn at correct orientation based on player pitch and yaw)
+- Consistent spawning conditions (Blades can only be activated once per jump before hitting the ground & always spawn after the player has reached the apex of their jump)
+- Additional "Void" super added, Nova Bomb (A singular large sphere that kills enemies spawns further in front of the player using the same activation logic as the Blade Barrage)
+
+Additional Features Completed:
+- Full player movement (Player can move, look, and jump (separate from Super activation))
+
+Engineer's Journal
+- Achieving full multi-directionality was initially challenging. Manipulating vectors like forward and right proved confusing during my initial rework of the Blade spawning mechanic, but after figuring out I could change the multiply node to be a float that multiplies against the whole vector, the blueprint as a whole became much cleaner and the logic was much easier to complete.
+- I actually ended up increasing my scope to include player movement after I finished the multi-directionality fix.
