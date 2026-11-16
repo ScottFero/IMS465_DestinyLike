@@ -1,4 +1,4 @@
-# IMS465_Project1
+# IMS465_DestinyLike
 
 **Mechanic:**
 A recreation of the "Super" mechanic from _Destiny 2_, which involves the player "jumping" in the air and spawning various objects with differing properties based on the "Subclass" chosen.
