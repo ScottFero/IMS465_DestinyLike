@@ -1,7 +1,7 @@
 # IMS465_Project1
 
 **Mechanic:**
-A recreation of the Blade Barrage "Super" mechanic from _Destiny 2_, which involves the player "jumping" in the air and spawning several blade objects that fly away from the player.
+A recreation of the "Super" mechanic from _Destiny 2_, which involves the player "jumping" in the air and spawning various objects with differing properties based on the "Subclass" chosen.
 
 **Architectural Showcase:**
 An interface wasn't strictly necessary for my mechanic, nor was the use of delta time as the main movement portion of my mechanic was done through Unreal Engine's default physics system.
